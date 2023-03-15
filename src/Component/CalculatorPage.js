@@ -10,7 +10,7 @@ const CalculatorPage = () => {
                 setInput("");
               }
        }
-        const calculate =()=>{
+        const calculater =()=>{
               try{
                      setInput(eval(input))
               }catch(error){
@@ -81,7 +81,7 @@ const CalculatorPage = () => {
                  <button className='p-4 shadow mt-1 btn btn-light fs-4' value='0' onClick={(e)=> setInput(input + e.target.value)}>0</button>
               </div>
               <div  className='col-md-3 col-3'>
-                 <button className='p-4 shadow mt-1 btn btn-light fs-4' value='=' onClick={()=> calculate()}>=</button>
+                 <button className='p-4 shadow mt-1 btn btn-light fs-4' value='=' onClick={()=> calculater()}>=</button>
               </div>
               <div  className='col-md-3 col-3'>
                  <button className='px-4 py-4 shadow mt-1 btn btn-light fs-4' value='/' onClick={(e)=> setInput(input + e.target.value)}>/</button>
