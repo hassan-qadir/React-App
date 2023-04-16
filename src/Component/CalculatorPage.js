@@ -28,7 +28,7 @@ const CalculatorPage = () => {
     </div>
       <div className='row justify-content-center'>
        <div className='col-md-4'>
-        <div className='card border-primary mb-4'>
+        <div className='card border-primary mb-3'>
         <div className='card-body text-primary'>
            <input type='text' className='form-control form-control-lg shadow' value={input}/>
            <div className='row'>
