@@ -22,7 +22,7 @@ const CalculatorPage = () => {
     <div className='container'>
        <div className='row'>
               <div className='col-12'>
-                     <h1 className='display-5 text-center'> Calculator</h1>
+                     <h1 className='display-4 text-center'> Calculator</h1>
               </div>
        </div>
     </div>
